@@ -1,5 +1,12 @@
 # MineWiki
 
+## Development Status
+
+### This project is currently under active development and not ready for external contributions.
+
+#### Please do not open pull requests, issues, or feature requests at this stage.
+##### Contribution guidelines will be published once the project reaches a stable state.
+
 ## Compile
 
 ### Requirements
