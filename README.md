@@ -7,6 +7,7 @@
 * Java JDK 8 (for Minecraft Forge 1.12.2)
 * Gradle (or use the included Gradle Wrapper)
 * Minecraft Forge MDK set up in the project
+* Recommended IDE: IntelliJ IDEA
 
 ### Steps
 
@@ -17,7 +18,13 @@
    cd MineWiki
    ```
 
-2. Build the project:
+2. (Recommended) Open the project using IntelliJ IDEA:
+
+   * Import as Gradle project
+   * Let Gradle finish indexing and setup
+   * Run `gradlew genIntellijRuns` if needed for Forge run configurations
+
+3. Build the project:
 
    * Windows:
 
@@ -30,7 +37,7 @@
      ./gradlew build
      ```
 
-3. The compiled `.jar` file will be generated in:
+4. The compiled `.jar` file will be generated in:
 
    ```
    /build/libs
